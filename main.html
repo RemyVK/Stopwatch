@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stop Watch</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="parent-div">
+            <h1> SIMPLE STOPWATCH</h1>
+
+            <div class="clock">
+                <span class="digit" id="min">
+                  00</span> 
+                  <span class="digit" id="dots">
+                  : </span>
+                  <span class="digit" id="sec">
+                    00</span>      
+            </div>     
+
+             <!-- //Creating buttons -->
+             <div class="button-container">
+                <button id="start" onclick="fadeOut(this)">Start</button>
+                <button id="stop" onclick="fadeOut(this)">Stop</button>
+                <button id="reset" onclick="fadeOut(this)">Reset</button>
+              </div>     
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>

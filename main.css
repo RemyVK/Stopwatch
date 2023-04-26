@@ -1,0 +1,53 @@
+/* To remove default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.parent-div {
+    position: relative;
+    background-color: #8bc34a;
+    text-align:center;
+    width: auto;
+    padding: 250px;
+    margin: 50px 100px 120px 150px;
+  }
+  h1 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100x;
+    text-align:center;
+    margin:auto;
+    margin-top: -75px;
+  }
+  .clock {
+    color: white;
+    font-size: 50px;
+  }
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 19px;
+    background-color: #8bc34a;
+    width: auto;
+
+  }
+  button{
+    background-color: #8bc34a;
+    color: white;
+    font-size: 16px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    padding: 30px 70px;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  .fade {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
